@@ -59,9 +59,11 @@ while True:
                     print("\n\n¡¡ADVERTENCIA!!\n<<Debe colocar un valor numérico entero entre 1 y 4, de lo contrario no empezara la operación.>>\n\n")
             except ValueError:
                 print("\n\n¡¡ADVERTENCIA!!\n<<Probablemente esta intentado ingresa valores no numéricos como caracteres o símbolos.\nDebe colocar un valor numérico entero, de lo contrario no se realizara la operación.>>\n\n")
+        
+        # feature/funcion-repetir:
+        
         while True:
-            try:
-                
+            try:        
                 print("\n\n¿Desea repetir o salir de la calculadora?\n\nPara Salir Coloque 0.\nPara repetir coloque 1.\n")
                 
                 seleccionRepetir = int(input("Coloque aquí su selección: "))
