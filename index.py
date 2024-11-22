@@ -10,7 +10,7 @@ def establecerValores():
     segundoValor = int(input("\nColoque un el segundo valor: "))
     return primerValor, segundoValor
 
-# feature/funcion-para-sumar
+# feature/funcion-para-sumar:
 
 def sumar(a, b):
     return a + b
@@ -32,4 +32,4 @@ while True:
                 print("\n\n¡¡ADVERTENCIA!!\n<<Debe colocar un valor numérico entero, de lo contrario no se realizara la operación.>>\n\n")
         break
     except ValueError:
-        print("\n\n¡¡ADVERTENCIA!!\n<<Debe colocar un valor numérico entero (1, 2, 3 o 4), de lo contrario no se realizara la operación.>>\n\n")s
+        print("\n\n¡¡ADVERTENCIA!!\n<<Debe colocar un valor numérico entero (1, 2, 3 o 4), de lo contrario no se realizara la operación.>>\n\n")
