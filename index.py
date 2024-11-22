@@ -25,6 +25,11 @@ def restar(a, b):
 def multiplicar(a, b):
     return a * b
 
+# feature/funcion-dividir:
+
+def dividir(a, b):
+    return a / b
+
 print("Bienvenido a la calculadora mas básica del mundo.\n\n")
 
 while True:
@@ -45,6 +50,10 @@ while True:
                 elif seleccionDeOperacion == 3:
                     establecerValores()
                     print(f"\nResultado de Multiplicar {primerValor} con {segundoValor}: {multiplicar(primerValor, segundoValor)}")
+                    break
+                elif seleccionDeOperacion == 4:
+                    establecerValores()
+                    print(f"\nResultado de dividir {primerValor} con {segundoValor}: {dividir(primerValor, segundoValor)}")
                     break
             except ValueError:
                 print("\n\n¡¡ADVERTENCIA!!\n<<Debe colocar un valor numérico entero, de lo contrario no se realizara la operación.>>\n\n")
