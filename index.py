@@ -15,6 +15,11 @@ def establecerValores():
 def sumar(a, b):
     return a + b
 
+# feature/funcion-restar:
+
+def restar(a, b):
+    return a - b
+
 print("Bienvenido a la calculadora mas básica del mundo.\n\n")
 
 while True:
@@ -27,6 +32,10 @@ while True:
                 if seleccionDeOperacion == 1:
                     establecerValores()
                     print(f"\nResultado de Sumar {primerValor} y {segundoValor}: {sumar(primerValor, segundoValor)}")
+                    break
+                elif seleccionDeOperacion == 2:
+                    establecerValores()
+                    print(f"\nResultado de Restar {primerValor} con {segundoValor}: {restar(primerValor, segundoValor)}")
                     break
             except ValueError:
                 print("\n\n¡¡ADVERTENCIA!!\n<<Debe colocar un valor numérico entero, de lo contrario no se realizara la operación.>>\n\n")
