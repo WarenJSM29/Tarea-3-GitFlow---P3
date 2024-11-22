@@ -10,7 +10,7 @@ def establecerValores():
     segundoValor = int(input("\nColoque un el segundo valor: "))
     return primerValor, segundoValor
 
-# feature/funcion-para-sumar
+# feature/funcion-para-sumar:
 
 def sumar(a, b):
     return a + b
